@@ -1,0 +1,30 @@
+#+SETUPFILE: s5.org
+#+TITLE: S5: An Introduction
+#+AUTHOR: Eric A. Meyer
+#+BIND: org-s5-html-preamble-footer "<h1>S5 Testbed</h1><h2>Your computer &#8226; Today's date</h2>"
+* What Is S5?
+** It's a Simple Standards-based Slide Show System
+** One XHTML document provides all of the slide show's content
+** CSS handles the layout and look of the slides
+** JavaScript handles the dynamic aspects of the show
+** That's all there is to it!
+* Operatic Origins
+** Opera 4 introduced [[http://www.opera.com/support/tutorials/operashow/][Opera Show]], a projection-mode style sheet technology (link demonstrates external link styling and window spawning)
+** Allows a single XHTML document to be turned into a PowerPoint-like slide show
+** Adding screen and print style sheets allows for multi-medium views of a single document
+** Highly efficient, but highly browser centric...
+* Incremental Display                                   :Incremental:ShowFirst:
+** Keep hitting/clicking "next" as long as it isn't the control link (»)
+** Bullet points are revealed one by one                          :Incremental:
+*** All based on class name of =inc=
+*** Lists can be classed to make items appear individually
+*** Individual items can be classed as well to create "animations"; see [[http://boxofchocolates.ca/projects/s5-incremental-graphics/][Derek Featherstone's example]]
+** Let's try it again, but without the first bullet point being pre-highlighted...
+* Incremental Display II                                          :Incremental:
+** Keep hitting/clicking "next" as long as it isn't the control link (»)
+** Bullet points are revealed one by one
+*** All based on class name of =incremental=
+*** Lists can be classed to make items appear individually
+*** Individual items can be classed as well to create "animations"; see [[http://boxofchocolates.ca/projects/s5-incremental-graphics/][Derek Featherstone's example]]
+** Notice how the sub-list was part of the parent bullet point; that was done on purpose
+** Now to move on to other test slides!

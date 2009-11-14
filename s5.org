@@ -1,0 +1,9 @@
+#+OPTIONS: H:1 num:nil toc:nil \n:nil @:t ::t |:t ^:t f:t LaTeX:t
+#+BIND: org-export-html-style-include-default nil
+#+BIND: org-export-html-style-include-scripts t
+#+BIND: org-export-html-auto-preamble nil
+#+BIND: org-export-html-auto-postamble nil
+#+BIND: org-export-html-style "<!-- configuration parameters --> <meta name='defaultView' content='slideshow' /> <meta name='controlVis' content='hidden' /> <!-- style sheet links --> <link rel='stylesheet' href='ui/default/slides.css' type='text/css' media='projection' id='slideProj' /> <link rel='stylesheet' href='ui/default/outline.css' type='text/css' media='screen' id='outlineStyle' /> <link rel='stylesheet' href='ui/default/print.css' type='text/css' media='print' id='slidePrint' /> <link rel='stylesheet' href='ui/default/opera.css' type='text/css' media='projection' id='operaFix' />"
+#+BIND: org-export-html-style-extra "<!-- S5 JS --> <script src='ui/jquery.js' type='text/javascript'></script> <script src='ui/org-slides.js' type='text/javascript'></script> <script src='ui/default/slides.js' type='text/javascript'></script> <script src='ui/default/style.js' type='text/javascript'></script>"
+#+BIND: org-export-html-preamble org-s5-html-preamble-function
+#+BIND: org-export-html-postamble org-s5-html-postamble-function
