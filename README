@@ -4,7 +4,7 @@ INSTALL:
 - copy org-s5.el somewhere in your Emacs' load-path
 - (require 'org-s5) from your .emacs
 - copy s5.org in your usual Org directory (optionally copy s5-demo.org as well, to export the demo presentation)
-- Retrieve jquery.js (http://jquery.com/), and S5 (http://meyerweb.com/eric/tools/s5/)
+- Retrieve jquery.js (http://jquery.com/ ), and S5 (http://meyerweb.com/eric/tools/s5/ )
 - uncompress S5 (that will be a directory called "ui") inside your usual HTML export directory for Org
 - copy jquery.js and org-slides.js (from this project) into this "ui" directory
 
