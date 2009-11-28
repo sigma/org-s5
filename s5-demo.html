@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+lang="en" xml:lang="en">
+<head>
+
+<title>S5: An Introduction</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2009-11-14 21:13:41 CET"/>
+<meta name="author" content="Eric A. Meyer"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<!-- configuration parameters --> <meta name='defaultView' content='slideshow' /> <meta name='controlVis' content='hidden' /> <!-- style sheet links --> <link rel='stylesheet' href='ui/default/slides.css' type='text/css' media='projection' id='slideProj' /> <link rel='stylesheet' href='ui/default/outline.css' type='text/css' media='screen' id='outlineStyle' /> <link rel='stylesheet' href='ui/default/print.css' type='text/css' media='print' id='slidePrint' /> <link rel='stylesheet' href='ui/default/opera.css' type='text/css' media='projection' id='operaFix' /><!-- S5 JS --> <script src='ui/jquery.js' type='text/javascript'></script> <script src='ui/org-slides.js' type='text/javascript'></script> <script src='ui/default/slides.js' type='text/javascript'></script> <script src='ui/default/style.js' type='text/javascript'></script>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div class='layout'>
+<div id='controls'></div>
+<div id='currentSlide'></div>
+<div id='header'></div>
+<div id='footer'><h1>S5 Testbed</h1><h2>Your computer &#8226; Today's date</h2></div>
+</div>
+<div class='presentation'>
+<div class='slide front'>
+  <div id='front-logo'></div>
+<h1 class='front'>S5: An Introduction</h1><h3>Eric A. Meyer</h3></div>
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1">What Is S5? </h2>
+<div class="outline-text-2" id="text-1">
+
+<ul>
+<li id="sec-1.1">It's a Simple Standards-based Slide Show System <br/>
+</li>
+<li id="sec-1.2">One XHTML document provides all of the slide show's content <br/>
+</li>
+<li id="sec-1.3">CSS handles the layout and look of the slides <br/>
+</li>
+<li id="sec-1.4">JavaScript handles the dynamic aspects of the show <br/>
+</li>
+<li id="sec-1.5">That's all there is to it! <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-2" class="outline-2">
+<h2 id="sec-2">Operatic Origins </h2>
+<div class="outline-text-2" id="text-2">
+
+<ul>
+<li id="sec-2.1">Opera 4 introduced <a href="http://www.opera.com/support/tutorials/operashow/">Opera Show</a>, a projection-mode style sheet technology (link demonstrates external link styling and window spawning) <br/>
+</li>
+<li id="sec-2.2">Allows a single XHTML document to be turned into a PowerPoint-like slide show <br/>
+</li>
+<li id="sec-2.3">Adding screen and print style sheets allows for multi-medium views of a single document <br/>
+</li>
+<li id="sec-2.4">Highly efficient, but highly browser centric&hellip; <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-3" class="outline-2">
+<h2 id="sec-3">Incremental Display &nbsp;&nbsp;&nbsp;<span class="tag"><span class="Incremental">Incremental</span>&nbsp;<span class="ShowFirst">ShowFirst</span></span></h2>
+<div class="outline-text-2" id="text-3">
+
+<ul>
+<li id="sec-3.1">Keep hitting/clicking "next" as long as it isn't the control link (») <br/>
+</li>
+<li id="sec-3.2">Bullet points are revealed one by one &nbsp;&nbsp;&nbsp;<span class="tag"><span class="Incremental">Incremental</span></span><br/>
+<ul>
+<li id="sec-3.2.1">All based on class name of <code>inc</code> <br/>
+</li>
+<li id="sec-3.2.2">Lists can be classed to make items appear individually <br/>
+</li>
+<li id="sec-3.2.3">Individual items can be classed as well to create "animations"; see <a href="http://boxofchocolates.ca/projects/s5-incremental-graphics/">Derek Featherstone's example</a> <br/>
+</li>
+</ul>
+</li>
+<li id="sec-3.3">Let's try it again, but without the first bullet point being pre-highlighted&hellip; <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-4" class="outline-2">
+<h2 id="sec-4">Incremental Display II &nbsp;&nbsp;&nbsp;<span class="tag"><span class="Incremental">Incremental</span></span></h2>
+<div class="outline-text-2" id="text-4">
+
+<ul>
+<li id="sec-4.1">Keep hitting/clicking "next" as long as it isn't the control link (») <br/>
+</li>
+<li id="sec-4.2">Bullet points are revealed one by one <br/>
+<ul>
+<li id="sec-4.2.1">All based on class name of <code>incremental</code> <br/>
+</li>
+<li id="sec-4.2.2">Lists can be classed to make items appear individually <br/>
+</li>
+<li id="sec-4.2.3">Individual items can be classed as well to create "animations"; see <a href="http://boxofchocolates.ca/projects/s5-incremental-graphics/">Derek Featherstone's example</a> <br/>
+</li>
+</ul>
+</li>
+<li id="sec-4.3">Notice how the sub-list was part of the parent bullet point; that was done on purpose <br/>
+</li>
+<li id="sec-4.4">Now to move on to other test slides! <br/>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-5" class="outline-2">
+<h2 id="sec-5">Conclusion </h2>
+<div class="outline-text-2" id="text-5">
+
+<p>That's it !
+</p></div>
+</div>
+</div>
+</div>
+</body>
+</html>
