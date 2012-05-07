@@ -38,6 +38,9 @@
    ""))
 
 (defun org-s5-html-preamble-function (&rest ignore)
+  (when (and (boundp 'html-pre-real-contents)
+             (null html-pre-real-contents))
+    (setq html-pre-real-contents ""))
   (insert (format "<div class='layout'>
 <div id='controls'></div>
 <div id='currentSlide'></div>
